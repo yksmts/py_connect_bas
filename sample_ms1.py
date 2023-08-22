@@ -2,6 +2,8 @@ import pypylon.pylon as py
 import numpy as np
 import cv2
 
+##try
+
 tlf = py.TlFactory.GetInstance()
 
 cam = py.InstantCamera(tlf.CreateFirstDevice())
