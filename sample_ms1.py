@@ -2,7 +2,7 @@ import pypylon.pylon as py
 import numpy as np
 import cv2
 
-##try
+##try2
 
 tlf = py.TlFactory.GetInstance()
 
