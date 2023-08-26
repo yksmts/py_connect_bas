@@ -31,6 +31,7 @@ while True:
     img_rsz1 = cv2.resize(img1, (1000, 1000))
     mnt.get_qr_code(img_rsz1)
     cv2.imshow('CAM1', mnt.qr_img)
+    cv2.moveWindow('CAM1', 100, 100)
 
     if mnt.new == True:
         mnt.save()
